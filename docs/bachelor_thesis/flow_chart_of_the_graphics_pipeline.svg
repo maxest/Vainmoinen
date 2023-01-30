@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="660.54352"
+   height="678.01343"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="flow_chart_of_the_graphics_pipeline.svg">
+  <defs
+     id="defs4">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4371"
+       is_visible="true" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.9688416"
+     inkscape:cx="160.72074"
+     inkscape:cy="120.36112"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(12.170376,42.764593)">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3019"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       transform="matrix(1.2014662,0,0,1.2014662,-59.290544,-59.287327)"><flowRegion
+         id="flowRegion3021"><rect
+           id="rect3023"
+           width="217"
+           height="48.5"
+           x="52"
+           y="3.36218"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans" /></flowRegion><flowPara
+         id="flowPara3025" /></flowRoot>    <rect
+       style="fill:#f2f2f2;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect2985"
+       width="253.06157"
+       height="258.36395"
+       x="-1.2567774"
+       y="-32.482594" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2987"
+       style="font-size:6px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier New;-inkscape-font-specification:Courier New"
+       transform="matrix(1.2014662,0,0,1.2014662,-109.88753,-165.14872)"><flowRegion
+         id="flowRegion2989"><rect
+           id="rect2991"
+           width="210.9747"
+           height="218.39546"
+           x="91.923882"
+           y="110.49596"
+           style="font-size:6px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New" /></flowRegion><flowPara
+         id="flowPara4253"
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"><flowSpan
+   style="font-size:5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+   id="flowSpan7485">for</flowSpan> $i: 0 <flowSpan
+   style="font-size:5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+   id="flowSpan7491">to</flowSpan> $drawCalls.size - 1</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara5408"><flowSpan
+   style="font-size:5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+   id="flowSpan7487">  for</flowSpan> $j: 0 <flowSpan
+   style="font-size:5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+   id="flowSpan7489">to</flowSpan> $drawCalls[$i].trianglesNum - 1</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara5410" /><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara5412">    Triangle $triangle</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara5414" /><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara5416"><flowSpan
+   style="font-size:5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+   id="flowSpan7495">    for</flowSpan> $k: 0 <flowSpan
+   style="font-size:5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+   id="flowSpan7493">to</flowSpan> 2</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara5418">      $triangle.vertices[$k] = <flowSpan
+   style="font-size:5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+   id="flowSpan7501">runVertexShader</flowSpan>(</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara5420">        $drawCalls[$i].transform,</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara5422">        $drawCalls[$i].trianglesBuffer.triangles[$j].vertices[$k])</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara5424" /><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara5426"><flowSpan
+   style="font-size:5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+   id="flowSpan7497">    if</flowSpan> ([all vertices of $triangle are not visible])</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara5428">      continue</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara5430" /><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara5432"><flowSpan
+   style="font-size:5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+   id="flowSpan7503">    if</flowSpan> ([all vertices of $triangle are visible])</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara5434"><flowSpan
+   style="font-size:5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+   id="flowSpan7505">      processProspectiveTriangleToRasterize</flowSpan>(</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara5436">        $triangle,</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara5438">        $drawCalls[$i].texture)</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara5440">      continue</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara5442" /><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara5444">    list&lt;Vertex&gt; $vertices</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara5446">    $vertices.add($triangle.vertices[0])</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara5448">    $vertices.add($triangle.vertices[1])</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara5450">    $vertices.add($triangle.vertices[2])</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara5452" /><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara5454">    $vertices = <flowSpan
+   style="font-size:5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+   id="flowSpan7509">clipPolygonToPlaneIn4D</flowSpan>($vertices, vec4(0, 0, -1, -1))</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara5456" /><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara5458">    // triangulate the polygon formed of $vertices array</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara5460"><flowSpan
+   style="font-size:5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+   id="flowSpan7511">    if</flowSpan> ($vertices.size &gt;= 3)</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara5462"><flowSpan
+   style="font-size:5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+   id="flowSpan7513">      for</flowSpan> $k: 0 <flowSpan
+   style="font-size:5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+   id="flowSpan7517">to</flowSpan> $vertice.size - 2</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara5464"><flowSpan
+   style="font-size:5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+   id="flowSpan7515">        processProspectiveTriangleToRasterize</flowSpan>(</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara5466">          $vertices[0],</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara5468">          $vertices[1 + $k],</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara5470">          $vertices[2 + $k],</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara5472">          $drawCalls[$i].texture)</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara5474" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3027"
+       style="font-size:8.32316399px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       transform="matrix(1.2014662,0,0,1.2014662,-43.862973,-46.815607)"><flowRegion
+         id="flowRegion3029"><rect
+           id="rect3031"
+           width="146.5"
+           height="61.5"
+           x="35"
+           y="2.36218"
+           style="font-size:8.32316399px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans" /></flowRegion><flowPara
+         id="flowPara3035">runVertexProcessor</flowPara></flowRoot>    <rect
+       style="fill:#f2f2f2;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3262"
+       width="194.82265"
+       height="78.280434"
+       x="313.84442"
+       y="-33.375313" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3107"
+       style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier New;-inkscape-font-specification:Courier New"
+       transform="matrix(1.2014662,0,0,1.2014662,-57.316061,-87.783884)"><flowRegion
+         id="flowRegion3109"><rect
+           id="rect3111"
+           width="162.09396"
+           height="67.412735"
+           x="310.41989"
+           y="45.442123"
+           style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New" /></flowRegion><flowPara
+         id="flowPara3173">Vertex <flowSpan
+   style="font-size:5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+   id="flowSpan7519">runVertexShader</flowSpan>(mtx $transform, Vertex $input)</flowPara><flowPara
+         id="flowPara5530">{</flowPara><flowPara
+         id="flowPara5532">  Vertex $output</flowPara><flowPara
+         id="flowPara5534" /><flowPara
+         id="flowPara5536">  $output.position = $input.position * $transform</flowPara><flowPara
+         id="flowPara5538">  $output.color = $input.color</flowPara><flowPara
+         id="flowPara5540">  $output.texCoord = $input.texCoord</flowPara><flowPara
+         id="flowPara5542" /><flowPara
+         id="flowPara5544"><flowSpan
+   style="font-size:5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+   id="flowSpan7521">  return</flowSpan> $output</flowPara><flowPara
+         id="flowPara5546">}</flowPara></flowRoot>    <rect
+       style="fill:#f2f2f2;stroke:#000000;stroke-width:1.01157641;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4367"
+       width="334.24893"
+       height="200.01579"
+       x="313.61844"
+       y="53.222824" />
+    <flowRoot
+       transform="matrix(1.2014662,0,0,1.2014662,-57.49209,0.59302385)"
+       xml:space="preserve"
+       id="flowRoot3107-1"
+       style="font-size:4px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier New;-inkscape-font-specification:Courier New"><flowRegion
+         id="flowRegion3109-3"><rect
+           id="rect3111-0"
+           width="284.12299"
+           height="183.86836"
+           x="310.41989"
+           y="45.442123"
+           style="font-size:4px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New" /></flowRegion><flowPara
+         id="flowPara4365"
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New">list&lt;Vertex&gt; <flowSpan
+   style="font-size:5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+   id="flowSpan7539">clipPolygonToPlaneIn</flowSpan><flowSpan
+   style="font-size:5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+   id="flowSpan3214">4D</flowSpan>(list&lt;Vertex&gt; $vertices, vec4 $planeNormal)</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara5982">{</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara5984">  list&lt;Vertex&gt; $clippedVertices;</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara5986" /><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara5988"><flowSpan
+   style="font-size:5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+   id="flowSpan7523">  for</flowSpan> $i: 0 <flowSpan
+   style="font-size:5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+   id="flowSpan7525">to</flowSpan> $vertices.size - 1</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara5990" /><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara5992">    $a = $i</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara5994">    $b = ($i + 1) % $vertices.size</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara5996" /><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara5998"><flowSpan
+   style="font-size:5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+   id="flowSpan7527">    if</flowSpan> ([$vertices[$a] <flowSpan
+   style="font-size:5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+   id="flowSpan7529">and</flowSpan> $vertices[$b] are on opposite sides of $planeNormal])</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara6000">    {</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara6002">      [find intersection point $vertex and linearly interpolate attributes]</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara6004" /><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara6008"><flowSpan
+   style="font-size:5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+   id="flowSpan7531">      if</flowSpan> ([$vertices[$a] is on the negative side of $planeNormal])</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara6010">        $clippedVertices.add($vertices[$a])</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara6014">        $clippedVertices.add($vertex)</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara6018"><flowSpan
+   style="font-size:5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+   id="flowSpan7533">      elseif</flowSpan> ([$vertices[$b] is on the negative side of $planeNormal])</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara6024">        $clippedVertices.add($vertex)  </flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara3232">    }</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara6028"><flowSpan
+   style="font-size:5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+   id="flowSpan7535">    elseif</flowSpan> ([$vertices[$a] and $vertices[$b] are both on the negative side of $planeNormal]) </flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara6030">    {</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara3238">      $clippedVertices.add($vertices[$a])</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara6032">    }</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara3240" /><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara6034"><flowSpan
+   style="font-size:5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+   id="flowSpan3216">  return</flowSpan> $clippedVertices</flowPara><flowPara
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="flowPara6036">}</flowPara></flowRoot>    <rect
+       style="fill:#f2f2f2;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4367-6"
+       width="286.40158"
+       height="265.51874"
+       x="353.7912"
+       y="263.47192" />
+    <flowRoot
+       transform="matrix(1.2014662,0,0,1.2014662,-17.319269,194.62242)"
+       xml:space="preserve"
+       id="flowRoot3107-1-0"
+       style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier New;-inkscape-font-specification:Courier New"><flowRegion
+         id="flowRegion3109-3-8"><rect
+           id="rect3111-0-2"
+           width="240.06453"
+           height="231.03333"
+           x="310.41989"
+           y="45.442123"
+           style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New" /></flowRegion><flowPara
+         id="flowPara4553" /><flowPara
+         id="flowPara7296" /><flowPara
+         id="flowPara7298">void <flowSpan
+   style="font-size:5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+   id="flowSpan7541">processProspectiveTriangleToRasterize</flowSpan>(</flowPara><flowPara
+         id="flowPara7366">  Vertex $_v0, Vertex $_v1, Vertex $_v2, CTexture $_texture)</flowPara><flowPara
+         id="flowPara7300">{</flowPara><flowPara
+         id="flowPara7302">  TriangleToRasterize $t</flowPara><flowPara
+         id="flowPara7304" /><flowPara
+         id="flowPara7306">  $t.v0 = $_v0</flowPara><flowPara
+         id="flowPara7308">  $t.v1 = $_v1</flowPara><flowPara
+         id="flowPara7310">  $t.v2 = $_v2</flowPara><flowPara
+         id="flowPara7312">  $t.texture = $_texture</flowPara><flowPara
+         id="flowPara7314" /><flowPara
+         id="flowPara7316">  $t.one_over_z0 = 1.0f / $t.v0.position.w</flowPara><flowPara
+         id="flowPara7318">  $t.one_over_z1 = 1.0f / $t.v1.position.w</flowPara><flowPara
+         id="flowPara7320">  $t.one_over_z2 = 1.0f / $t.v2.position.w</flowPara><flowPara
+         id="flowPara7322" /><flowPara
+         id="flowPara7324">  // project from homogenous coordinates to window coordinates</flowPara><flowPara
+         id="flowPara7326">  $t.v0.position.divideByW()</flowPara><flowPara
+         id="flowPara7328">  $t.v0.position *= $Renderer.windowTransform</flowPara><flowPara
+         id="flowPara7330">  $t.v1.position.divideByW()</flowPara><flowPara
+         id="flowPara7332">  $t.v1.position *= $Renderer.windowTransform</flowPara><flowPara
+         id="flowPara7334">  $t.v2.position.divideByW()</flowPara><flowPara
+         id="flowPara7336">  $t.v2.position *= $Renderer.windowTransform</flowPara><flowPara
+         id="flowPara7338" /><flowPara
+         id="flowPara7340"><flowSpan
+   style="font-size:5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+   id="flowSpan7543">  if</flowSpan> ([are vertices $t.v0, $t.v1 and $t.v2 in clockwise order in screen space])</flowPara><flowPara
+         id="flowPara7342"
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New Bold">    return</flowPara><flowPara
+         id="flowPara7344" /><flowPara
+         id="flowPara7346">  [find bounding box of the triangle and store it in</flowPara><flowPara
+         id="flowPara7348">    [$t.minX, $t.minY] x [$tmaxX, $t.maxY] square]</flowPara><flowPara
+         id="flowPara7350" /><flowPara
+         id="flowPara7352"><flowSpan
+   style="font-size:5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+   id="flowSpan7549">  if</flowSpan> ($t.maxX &lt;= $t.minX <flowSpan
+   style="font-size:5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+   id="flowSpan7545">or</flowSpan> $t.maxY &lt;= $t.minY)</flowPara><flowPara
+         id="flowPara7354"
+         style="font-size:5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New Bold">    return</flowPara><flowPara
+         id="flowPara7356" /><flowPara
+         id="flowPara7358">  [compute the remaining attributes of $t]</flowPara><flowPara
+         id="flowPara7360" /><flowPara
+         id="flowPara7362">  $Renderer.trianglesToRasterize.add($t);</flowPara><flowPara
+         id="flowPara7364">}</flowPara></flowRoot>    <rect
+       style="fill:#f2f2f2;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect2985-7"
+       width="346.40097"
+       height="273.17419"
+       x="-11.670376"
+       y="361.51816" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2987-5"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;line-height:125%;font-family:'Courier New';-inkscape-font-specification:'Courier New';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(1.2014662,0,0,1.2014662,-120.40515,228.74763)"><flowRegion
+         id="flowRegion2989-4"><rect
+           id="rect2991-7"
+           width="324.11179"
+           height="231.12338"
+           x="91.923882"
+           y="110.49596"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;line-height:125%;font-family:'Courier New';-inkscape-font-specification:'Courier New';text-align:start;writing-mode:lr-tb;text-anchor:start" /></flowRegion><flowPara
+         id="flowPara4705"><flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5px;line-height:125%;font-family:'Courier New';-inkscape-font-specification:'Courier New Bold';text-align:start;writing-mode:lr-tb;text-anchor:start"
+   id="flowSpan7555">for</flowSpan> $i: 0 <flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5px;line-height:125%;font-family:'Courier New';-inkscape-font-specification:'Courier New Bold';text-align:start;writing-mode:lr-tb;text-anchor:start"
+   id="flowSpan7571">to</flowSpan> $Renderer.trianglesToRasterize.size</flowPara><flowPara
+         id="flowPara4707" /><flowPara
+         id="flowPara4709">  TriangleToRasterize&amp; $t = $Renderer.trianglesToRasterize[$i]</flowPara><flowPara
+         id="flowPara4711" /><flowPara
+         id="flowPara4713"><flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5px;line-height:125%;font-family:'Courier New';-inkscape-font-specification:'Courier New Bold';text-align:start;writing-mode:lr-tb;text-anchor:start"
+   id="flowSpan7557">  for</flowSpan> $y: $t.minY <flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5px;line-height:125%;font-family:'Courier New';-inkscape-font-specification:'Courier New Bold';text-align:start;writing-mode:lr-tb;text-anchor:start"
+   id="flowSpan7559">to</flowSpan> $t.maxY</flowPara><flowPara
+         id="flowPara4715"><flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5px;line-height:125%;font-family:'Courier New';-inkscape-font-specification:'Courier New Bold';text-align:start;writing-mode:lr-tb;text-anchor:start"
+   id="flowSpan7563">    for</flowSpan> $x: $t.minX <flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5px;line-height:125%;font-family:'Courier New';-inkscape-font-specification:'Courier New Bold';text-align:start;writing-mode:lr-tb;text-anchor:start"
+   id="flowSpan7561">to</flowSpan> $t.maxX</flowPara><flowPara
+         id="flowPara4717" /><flowPara
+         id="flowPara4719">      [compute barycentric weights of point ($x, $y): $alpha, $beta, $gamma]</flowPara><flowPara
+         id="flowPara4721" /><flowPara
+         id="flowPara4723">   // is pixel (x, y) inside the triangle</flowPara><flowPara
+         id="flowPara4725">      if ($alpha &gt;= 0 and $beta &gt;= 0 and $gamma &gt;= 0)</flowPara><flowPara
+         id="flowPara4727" /><flowPara
+         id="flowPara4729">        $pixelIndex = $y*$Renderer.width + $x</flowPara><flowPara
+         id="flowPara4731" /><flowPara
+         id="flowPara4733">        $z_affine = $alpha*$t.v0.position.z + $beta*$t.v1.position.z + $gamma*$t.v2.position.z</flowPara><flowPara
+         id="flowPara4735" /><flowPara
+         id="flowPara4737"><flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5px;line-height:125%;font-family:'Courier New';-inkscape-font-specification:'Courier New Bold';text-align:start;writing-mode:lr-tb;text-anchor:start"
+   id="flowSpan7565">        if</flowSpan> ($z_affine &lt; $depthBuffer[$pixelIndex] <flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5px;line-height:125%;font-family:'Courier New';-inkscape-font-specification:'Courier New Bold';text-align:start;writing-mode:lr-tb;text-anchor:start"
+   id="flowSpan7567">and</flowSpan> $z_affine &lt;= 1)</flowPara><flowPara
+         id="flowPara4739" /><flowPara
+         id="flowPara4741">          // make barycentric weights to be perspective-correct</flowPara><flowPara
+         id="flowPara4743">          $l = $alpha*$t.one_over_z0 + $beta*$t.one_over_z1 + $gamma*$t.one_over_z2</flowPara><flowPara
+         id="flowPara4745">          $l = 1 / $l</flowPara><flowPara
+         id="flowPara4747">          $alpha *= $l * $t.one_over_z0</flowPara><flowPara
+         id="flowPara4749">          $beta *= $l * $t.one_over_z1</flowPara><flowPara
+         id="flowPara4751">          $gamma *= $l * $t.one_over_z2</flowPara><flowPara
+         id="flowPara4753" /><flowPara
+         id="flowPara4755">          $color_persp = $alpha*$t.v0.color + $beta*$t.v1.color + $gamma*$t.v2.color</flowPara><flowPara
+         id="flowPara4757">          $texCoord_persp = $alpha*$t.v0.texCoord + $beta*$t.v1.texCoord + $gamma*t.v2.texCoord</flowPara><flowPara
+         id="flowPara4759" /><flowPara
+         id="flowPara4761">          [compute partial derivatives of texture coordinates]</flowPara><flowPara
+         id="flowPara4763" /><flowPara
+         id="flowPara4765">          &amp;pixelColor = <flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5px;line-height:125%;font-family:'Courier New';-inkscape-font-specification:'Courier New Bold';text-align:start;writing-mode:lr-tb;text-anchor:start"
+   id="flowSpan7569">runPixelShader</flowSpan>($t.texture, $color_persp, $texCoord_persp)</flowPara><flowPara
+         id="flowPara4767" /><flowPara
+         id="flowPara4769">          $colorBuffer[4*$pixelIndex + 0] = $pixelColor.red</flowPara><flowPara
+         id="flowPara4771">          $colorBuffer[4*$pixelIndex + 1] = $pixelColor.green</flowPara><flowPara
+         id="flowPara4773">          $colorBuffer[4*$pixelIndex + 2] = $pixelColor.blue</flowPara><flowPara
+         id="flowPara4775">          $depthBuffer[$pixelIndex] = $z_affine</flowPara><flowPara
+         id="flowPara4777" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3027-9"
+       style="font-size:8.32316399px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       transform="matrix(1.2014662,0,0,1.2014662,-54.380598,347.08077)"><flowRegion
+         id="flowRegion3029-7"><rect
+           id="rect3031-4"
+           width="146.5"
+           height="61.5"
+           x="35"
+           y="2.36218"
+           style="font-size:8.32316399px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans" /></flowRegion><flowPara
+         id="flowPara3035-6">runPixelProcessor</flowPara></flowRoot>    <rect
+       style="fill:#f2f2f2;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3262-7"
+       width="244.84711"
+       height="33.153629"
+       x="354.00699"
+       y="601.59521" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3107-13"
+       style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier New;-inkscape-font-specification:Courier New"
+       transform="matrix(1.2014662,0,0,1.2014662,-16.991007,547.34912)"><flowRegion
+         id="flowRegion3109-4"><rect
+           id="rect3111-2"
+           width="201.69194"
+           height="28.521862"
+           x="310.41989"
+           y="45.442123"
+           style="font-size:5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New" /></flowRegion><flowPara
+         id="flowPara5546-6">vec3 <flowSpan
+   style="font-size:5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+   id="flowSpan3213">runPixelShader</flowSpan>(CTexture $texture, vec3 $color, vec2 $texCoord)</flowPara><flowPara
+         id="flowPara7479">{</flowPara><flowPara
+         id="flowPara7481">  return $color * tex2D($texture, $texCoord)</flowPara><flowPara
+         id="flowPara7483">}</flowPara></flowRoot>    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2, 1;stroke-dashoffset:0"
+       d="M 133.35542,148.15502 C 313.57534,82.074382 313.57534,82.074382 313.57534,82.074382"
+       id="path7577"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="fill:#000000;stroke:#000000;stroke-width:2.40293241;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect7589"
+       width="9.7699966"
+       height="133.38168"
+       x="106.59753"
+       y="226.70885" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2, 1;stroke-dashoffset:0"
+       d="m 201.60507,128.43645 c 0,0 101.75136,18.83379 129.90748,56.79016 23.99126,32.34185 -11.06306,87.55605 14.90742,117.1297 13.5579,15.43894 59.62967,15.61729 59.62967,15.61729"
+       id="path3214"
+       inkscape:connector-curvature="0"
+       transform="translate(-52.271109,-46.790927)"
+       sodipodi:nodetypes="csss" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2, 1;stroke-dashoffset:0"
+       d="m 160.12487,242.42456 245.45787,96.3761 0,0"
+       id="path3984"
+       inkscape:connector-curvature="0"
+       transform="translate(-52.271109,-46.790927)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2, 1;stroke-dashoffset:0"
+       d="m 201.60507,59.578382 163.98158,-31.234588 0,0"
+       id="path3986"
+       inkscape:connector-curvature="0"
+       transform="translate(-52.271109,-46.790927)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2, 1;stroke-dashoffset:0"
+       d="m 122.93352,638.10457 243.01642,12.82785 0,0"
+       id="path3215"
+       inkscape:connector-curvature="0"
+       transform="translate(-12.170376,-42.764593)" />
+  </g>
+</svg>

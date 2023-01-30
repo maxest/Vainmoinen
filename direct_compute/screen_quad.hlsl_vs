@@ -1,0 +1,42 @@
+struct VS_INPUT
+{
+	uint index: SV_VertexID;
+};
+
+
+
+struct VS_OUTPUT
+{
+	float2 texCoord: TEXCOORD0;
+	float4 screenPosition: SV_POSITION;
+};
+
+
+
+VS_OUTPUT main(VS_INPUT input)
+{
+    VS_OUTPUT output;
+
+	if (input.index == 0)
+	{
+		output.screenPosition = float4(-1.0f, -1.0f, 0.0f, 1.0f);
+		output.texCoord = float2(0.0f, 0.0f);
+	}
+	else if (input.index == 1)
+	{
+		output.screenPosition = float4(-1.0f, 1.0f, 0.0f, 1.0f);
+		output.texCoord = float2(0.0f, 1.0f);
+	}
+	else if (input.index == 2)
+	{
+		output.screenPosition = float4(1.0f, -1.0f, 0.0f, 1.0f);
+		output.texCoord = float2(1.0f, 0.0f);
+	}
+	else if (input.index == 3)
+	{
+		output.screenPosition = float4(1.0f, 1.0f, 0.0f, 1.0f);
+		output.texCoord = float2(1.0f, 1.0f);
+	}
+
+    return output;
+}

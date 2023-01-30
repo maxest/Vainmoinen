@@ -1,0 +1,3 @@
+- check zero-copy host memory
+- texturing for GPU-based rasterization
+- SSE

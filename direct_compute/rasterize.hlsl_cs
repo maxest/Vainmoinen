@@ -1,0 +1,131 @@
+class plane
+{
+	float a, b, c, d;
+};
+
+struct Vertex
+{
+	float4 position;
+	float3 color;
+	float2 texCoord;
+};
+
+struct TriangleToRasterize
+{
+	Vertex v0;
+	Vertex v1;
+	Vertex v2;
+	int textureAddress;
+	float one_over_z0;
+	float one_over_z1;
+	float one_over_z2;
+	int minX;
+	int maxX;
+	int minY;
+	int maxY;
+	float one_over_v0ToLine12;
+	float one_over_v1ToLine20;
+	float one_over_v2ToLine01;
+	plane alphaPlane;
+	plane betaPlane;
+	plane gammaPlane;
+	float one_over_alpha_c;
+	float one_over_beta_c;
+	float one_over_gamma_c;
+	float alpha_ffx;
+	float beta_ffx;
+	float gamma_ffx;
+	float alpha_ffy;
+	float beta_ffy;
+	float gamma_ffy;
+	int tileMinX;
+	int tileMaxX;
+	int tileMinY;
+	int tileMaxY;
+	int padding[1];
+};
+
+
+
+// ----------------------------------------------------------------------------
+
+
+
+float implicitLine(float x, float y, in float4 v1, in float4 v2)
+{
+	return (v1.y - v2.y)*x + (v2.x - v1.x)*y + v1.x*v2.y - v2.x*v1.y;
+}
+
+
+
+// ----------------------------------------------------------------------------
+
+
+
+cbuffer params: register(b0)
+{
+	int screenWidth_tiles;
+	int3 padding;
+};
+
+
+
+RWTexture2D<float4> colorBufferTexture: register(u0);
+RWTexture2D<float> depthBufferTexture: register(u1);
+
+RWStructuredBuffer<TriangleToRasterize> trianglesToRasterizeBuffer: register(u2);
+RWByteAddressBuffer indicesToTrianglesToRasterizeBuffer: register(u3);
+
+
+
+[numthreads(16, 16, 1)]
+void main(uint3 dtID: SV_DispatchThreadID, uint3 gID: SV_GroupID)
+{
+	int tileIndex = screenWidth_tiles*gID.y + gID.x;
+	int2 pixelXY = int2(dtID.x, dtID.y);
+
+	[allow_uav_condition]
+	for (int i = 0; i < TRIANGLES_PER_PACK; i++)
+	{
+		int triangleIndex = indicesToTrianglesToRasterizeBuffer.Load(4*(TRIANGLES_PER_PACK*tileIndex + i));
+
+		if (triangleIndex == 0)
+			break;
+
+		TriangleToRasterize t = trianglesToRasterizeBuffer[triangleIndex - 1];
+
+		// we want centers of pixels to be used in computations
+		float x = (float)pixelXY.x + 0.5f;
+		float y = (float)pixelXY.y + 0.5f;
+
+		// affine barycentric weights
+		float alpha = implicitLine(x, y, t.v1.position, t.v2.position) * t.one_over_v0ToLine12;
+		float beta = implicitLine(x, y, t.v2.position, t.v0.position) * t.one_over_v1ToLine20;
+		float gamma = implicitLine(x, y, t.v0.position, t.v1.position) * t.one_over_v2ToLine01;
+
+		// if pixel (x, y) is inside the triangle or on one of its edges
+		if (alpha >= 0 && beta >= 0 && gamma >= 0)
+		{
+			float z_affine = alpha*t.v0.position.z + beta*t.v1.position.z + gamma*t.v2.position.z;
+
+			if (z_affine < depthBufferTexture[pixelXY] && z_affine <= 1.0f)
+			{
+				// perspective-correct barycentric weights
+				float l = alpha*t.one_over_z0 + beta*t.one_over_z1 + gamma*t.one_over_z2;
+				l = 1.0f / l;
+				alpha *= l*t.one_over_z0;
+				beta *= l*t.one_over_z1;
+				gamma *= l*t.one_over_z2;
+
+				// attributes interpolation
+				float3 color_persp = alpha*t.v0.color + beta*t.v1.color + gamma*t.v2.color;
+
+				// run pixel shader
+				float3 pixelColor = color_persp;
+
+				colorBufferTexture[pixelXY] = float4(pixelColor, 1.0f);
+				depthBufferTexture[pixelXY] = z_affine;
+			}
+		}
+	}
+}

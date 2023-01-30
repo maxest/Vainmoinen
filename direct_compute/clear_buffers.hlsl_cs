@@ -1,0 +1,13 @@
+RWTexture2D<float4> colorBufferTexture: register(u0);
+RWTexture2D<float> depthBufferTexture: register(u1);
+
+
+
+[numthreads(16, 16, 1)]
+void main(uint3 dtID: SV_DispatchThreadID)
+{
+	int2 pixelXY = int2(dtID.x, dtID.y);
+
+	colorBufferTexture[pixelXY] = float4(0.0f, 0.0f, 0.0f, 1.0f);
+	depthBufferTexture[pixelXY] = 1.0f;
+}

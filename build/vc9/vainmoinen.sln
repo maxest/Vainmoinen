@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vainmoinen", "vainmoinen.vcproj", "{2FDCA11B-A4E0-4353-B84F-E0719C3E443B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug_CUDA|Win32 = Debug_CUDA|Win32
+		Debug_DirectCompute|Win32 = Debug_DirectCompute|Win32
+		Debug|Win32 = Debug|Win32
+		Release_CUDA|Win32 = Release_CUDA|Win32
+		Release_DirectCompute|Win32 = Release_DirectCompute|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FDCA11B-A4E0-4353-B84F-E0719C3E443B}.Debug_CUDA|Win32.ActiveCfg = Debug_CUDA|Win32
+		{2FDCA11B-A4E0-4353-B84F-E0719C3E443B}.Debug_CUDA|Win32.Build.0 = Debug_CUDA|Win32
+		{2FDCA11B-A4E0-4353-B84F-E0719C3E443B}.Debug_DirectCompute|Win32.ActiveCfg = Debug_DirectCompute|Win32
+		{2FDCA11B-A4E0-4353-B84F-E0719C3E443B}.Debug_DirectCompute|Win32.Build.0 = Debug_DirectCompute|Win32
+		{2FDCA11B-A4E0-4353-B84F-E0719C3E443B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2FDCA11B-A4E0-4353-B84F-E0719C3E443B}.Debug|Win32.Build.0 = Debug|Win32
+		{2FDCA11B-A4E0-4353-B84F-E0719C3E443B}.Release_CUDA|Win32.ActiveCfg = Release_CUDA|Win32
+		{2FDCA11B-A4E0-4353-B84F-E0719C3E443B}.Release_CUDA|Win32.Build.0 = Release_CUDA|Win32
+		{2FDCA11B-A4E0-4353-B84F-E0719C3E443B}.Release_DirectCompute|Win32.ActiveCfg = Release_DirectCompute|Win32
+		{2FDCA11B-A4E0-4353-B84F-E0719C3E443B}.Release_DirectCompute|Win32.Build.0 = Release_DirectCompute|Win32
+		{2FDCA11B-A4E0-4353-B84F-E0719C3E443B}.Release|Win32.ActiveCfg = Release|Win32
+		{2FDCA11B-A4E0-4353-B84F-E0719C3E443B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

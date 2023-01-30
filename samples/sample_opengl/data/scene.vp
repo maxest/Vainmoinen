@@ -1,0 +1,20 @@
+uniform mat4 worldTransform;
+uniform mat4 viewProjTransform;
+
+
+
+attribute vec4 POSITION;
+attribute vec3 COLOR;
+attribute vec2 TEXCOORD0;
+
+varying vec3 varColor;
+varying vec2 varTexCoord;
+
+
+
+void main()
+{
+	gl_Position = POSITION * worldTransform * viewProjTransform;
+	varColor = COLOR;
+	varTexCoord = TEXCOORD0;
+}
