@@ -22,7 +22,7 @@ The new hardware rasterization algorithm also uses tiling approach but now the s
 One test was conducted. Three full-screen quads were rendered on top of one another (sorted back-to-front so no early-z). The screen resolution was 1366x768. The GPU used was GeForce GT540M. Performance stats:
 | OpenGL  | CUDA |
 | ------------- | ------------- |
-| 1.163ms  | clear buffers (kernel) - 0.412ms <br/> triangles buffer (copy) - 0.001ms <br/> tiles' indices to triangles buffer (copy) - 1.500ms <br/> rasterize (kernel) - 8.653ms |
+| 1.163ms | clear buffers (kernel) - 0.412ms <br/> triangles buffer (copy) - 0.001ms <br/> tiles' indices to triangles buffer (copy) - 1.500ms <br/> rasterize (kernel) - 8.653ms |
 
 OpenGL's timing includes the whole pipeline. However, since there were only 12 vertices to process, the time needed for vertex processing can be neglected.
 GL_ARB_timer_query extension was used to measure the OpenGL's time. NVIDIA's Compute Visual Profiler was used to get CUDA's timings.
