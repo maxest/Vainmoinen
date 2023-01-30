@@ -1,7 +1,12 @@
 # Vainmoinen
 A software rasterizer which rasterizes perspectively-corrected textured triangles.
 
-Disclaimer: I developed this project back in 2011-2012. My coding and analysis skills were definitely less so back then. Because of that take any claims and performance numbers below with a grain of salt.
+Go to `docs/bachelor_thesis/bachelor_thesis.pdf` for my bachelor thesis that explains in details how this project is implemented.
+
+![screenshot](https://user-images.githubusercontent.com/37375338/215572689-142291d8-fb45-4400-8e37-ebad26841c3a.png)
+
+#### Disclaimer
+I developed this project back in 2011-2012. My coding and analysis skills were definitely less so back then. Because of that take any claims and performance numbers below with a grain of salt.
 
 ## Update: 18th of June, 2012
 
@@ -27,9 +32,6 @@ One test was conducted. Three full-screen quads were rendered on top of one anot
 OpenGL's timing includes the whole pipeline. However, since there were only 12 vertices to process, the time needed for vertex processing can be neglected.
 GL_ARB_timer_query extension was used to measure the OpenGL's time. NVIDIA's Compute Visual Profiler was used to get CUDA's timings.
 
-### Downloads
-- [Vainmoinen-18-06-2012](http://maxest.gct-game.net/content/vainmoinen/Vainmoinen-18-06-2012.zip) (includes sources, project files for Visual C++ 2008, third-party dependencies, samples)
-
 ### Remarks
 - CUDA: v4.0 was used
 - CUDA: at first, instead of using PBO and texture, PBO alone was used and the final image was rendered with glDrawPixels. Supposingly this function caused some CPU <-> GPU traffic, as it took around 7ms to complete, thus degrading the performance severly (rendering was 2x slower with respect to DirectCompute)
@@ -53,11 +55,6 @@ Vainmoinen is a project that has been developed for my bachelor thesis "Software
 - triangle culling and clipping
 - object-order rasterization and shading with depth buffering
 - texture mapping supporting bilinear filtering and mip-mapping (not available for CUDA renderer)
-
-### Downloads
-- [Vainmoinen-20-02-2011](http://maxest.gct-game.net/content/vainmoinen/Vainmoinen-20-02-2011.zip) (includes sources, project files for Visual C++ 2008, third-party dependencies, samples)
-- [bachelor thesis](http://maxest.gct-game.net/content/vainmoinen/bachelor_thesis.pdf) "Software Renderer Accelerated by CUDA Technology"
-- [bachelor thesis defence](http://maxest.gct-game.net/content/vainmoinen/bachelor_thesis_defence.pdf) slides
 
 ### Remarks
 - CUDA v3.2 was used during development. CUDA v4.0 depicts some problems during compilation
