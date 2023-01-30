@@ -1,4 +1,5 @@
 # Vainmoinen
+
 A software rasterizer which rasterizes perspectively-corrected textured triangles.
 
 Go to `docs/bachelor_thesis/bachelor_thesis.pdf` for my bachelor thesis that explains in details how this project is implemented.
